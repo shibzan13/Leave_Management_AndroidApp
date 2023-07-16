@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApp"
+        tools:ignore="ExtraText"
+        tools:targetApi="31">
+        <activity
+            android:name=".otherleave"
+            android:exported="false" />
+        <activity
+            android:name=".Mystatus"
+            android:exported="false" />
+        <activity
+            android:name=".Detailsdisplay"
+            android:exported="false" />
+        <activity
+            android:name=".facultyrequests"
+            android:exported="false" />
+        <activity
+            android:name=".approvedeny"
+            android:exported="false" />
+        <activity
+            android:name=".flogin"
+            android:exported="false" />
+        <activity
+            android:name=".deniedrequests"
+            android:exported="false" />
+        <activity
+            android:name=".approvedrequests"
+            android:exported="false" />
+        <activity
+            android:name=".Fhomescreen"
+            android:exported="false" />
+        <activity
+            android:name=".progress_layout"
+            android:exported="false" />
+        <activity
+            android:name=".fregister"
+            android:exported="false" />
+        <activity
+            android:name=".upload"
+            android:exported="false" />
+        <activity
+            android:name=".datepicking"
+            android:exported="false" />
+        <activity
+            android:name=".leavetype"
+            android:exported="false" />
+        <activity
+            android:name=".studenthomescreen"
+            android:exported="false" />
+        <activity
+            android:name=".Homescreen"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
